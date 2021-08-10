@@ -71,16 +71,10 @@ int main(){
     }
   }
   printf("KMITL Semester starts : ");
-  if(day_num==1)printf("MON ");
-  else if(day_num==2)printf("TUE ");
-  else if(day_num==3)printf("WED ");
-  else if(day_num==4)printf("THU ");
-  else if(day_num==5)printf("FRI ");
-  else if(day_num==6)printf("SAT ");
-  else if(day_num==7)printf("SUN ");
-  printf("%d/", date);
-  if(month<10)printf("0%d/", month);
-  else{printf("%d",month);}
+  printf("MON ");
+  if(date<10)printf("0%d/", date);
+  else{printf("%d/", date);}
+  printf("08/");
   printf("%d\n", year);
   printf("Days left to starts Semester : %d",allday);
 }
