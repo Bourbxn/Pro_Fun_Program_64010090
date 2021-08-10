@@ -1,4 +1,6 @@
 #include<stdio.h>
 int main(){
-  printf("Hello Git");
+  char day[6]="monday";
+  int a=5;
+  if(day[0]=='m' && a==5)printf("goin");
 }
