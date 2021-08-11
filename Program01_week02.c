@@ -13,7 +13,7 @@ int main(){
   else if(day[0]=='S' && day[1]=='U' && day[2]=='N')day_num=7;
   while(1){
     int yearAD=year-543;
-    if(day_num==1 && month==8)break;
+    if(day_num==1 && month==8 && date<9)break;
     if(month==1 || month==3 || month==5 || month==7 || month==8 || month==10 || month==12){
       if(date==32){
         month+=1;

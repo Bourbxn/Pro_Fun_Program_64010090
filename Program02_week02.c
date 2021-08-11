@@ -67,6 +67,7 @@ int main(){
     alldaynext=31;
     day_num+=alldaythis+alldaynext;
     day_num%=7;
+    if(day_num==0)day_num=7;
     allday=alldaythis+alldaynext+(8-day_num);
     date=8-day_num;
   }
