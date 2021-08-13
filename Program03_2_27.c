@@ -7,10 +7,13 @@ int main(){
       if((j<=i-1 && i<=num)||(j<=num*2-1-i && i>num)){
         printf(" ");
       }
+      else if((j>=(num*2-1)-i+2 && i<=num)||(j>=i+1 && i>num)){
+        printf("");
+      }
       else{
         printf("*");
       }
     }
-    printf("\n");
+    if(i!=num*2-1)printf("\n");
   }
 }
