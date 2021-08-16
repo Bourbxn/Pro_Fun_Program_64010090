@@ -105,7 +105,6 @@ int main(){
       allday=2;
     }
     else{
-
       yearAD+=1;
       alldaythis=31-date;
       if((yearAD%4==0 && yearAD%100!=0)||(yearAD%4==0 && yearAD%100==0 && yearAD%400==0)){
@@ -116,6 +115,7 @@ int main(){
       }
       day_num+=alldaythis+alldaynext;
       day_num%=7;
+      if(day_num==0)day_num=7;
       allday=alldaythis+alldaynext+(8-day_num);
       date=8-day_num;
       year+=1;
