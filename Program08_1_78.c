@@ -10,8 +10,9 @@ int main(){
   for(int i=1;i<=num+num-1;i++){
     if(i==1){
       for(int j=1;j<=3;j++){
-        
+
       }
     }
   }
+  return 0;
 }

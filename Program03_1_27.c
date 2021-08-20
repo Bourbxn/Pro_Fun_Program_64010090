@@ -20,4 +20,5 @@ int main(){
     }
     if(i!=num)printf("\n");
   }
+  return 0;
 }

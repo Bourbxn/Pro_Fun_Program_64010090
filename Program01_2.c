@@ -188,4 +188,5 @@ int main(){
   printf("08/");
   printf("%d\n", year);
   printf("Days left to starts Semester : %d",allday);
+  return 0;
 }

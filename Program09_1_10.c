@@ -11,4 +11,5 @@ int main(){
   if(num3<=min)min=num3;
 
   printf("%d", max+min);
+  return 0;
 }

@@ -15,4 +15,5 @@ int main(){
   printf("Student  9 : %.2f\n", s9);
   printf("Student 10 : %.2f\n", s10);
   printf("Average Height of 10 students = %.2f", avg);
+  return 0;
 }

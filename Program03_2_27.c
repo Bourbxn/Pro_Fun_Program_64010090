@@ -16,4 +16,5 @@ int main(){
     }
     if(i!=num*2-1)printf("\n");
   }
+  return 0;
 }

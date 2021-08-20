@@ -8,4 +8,5 @@ int main(){
   int num;
   scanf("%d", &num);
   printf("%d", Factrl(num));
+  return 0;
 }

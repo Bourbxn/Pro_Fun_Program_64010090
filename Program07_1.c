@@ -17,4 +17,5 @@ int main(){
     if(prime_seq==sequence)prime_num=start_num;
   }
   printf("This Prime number >> %d", start_num);
+  return 0;
 }

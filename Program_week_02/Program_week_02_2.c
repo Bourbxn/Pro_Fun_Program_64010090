@@ -11,4 +11,5 @@ int main(){
     else{printf("Student  %d : %.2f\n", i+1,height[i]);}
   }
   printf("Average Height of 10 students = %.2f", sum/10);
+  return 0;
 }

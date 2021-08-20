@@ -10,4 +10,5 @@ int main(){
     if(lst[i]>=max)max=lst[i];
   }
   printf("%d",sum-max);
+  return 0;
 }

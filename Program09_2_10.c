@@ -16,4 +16,5 @@ int main(){
     if(lst[i]<=min)min=lst[i];
   }
   printf("%d", min+max);
+  return 0;
 }
