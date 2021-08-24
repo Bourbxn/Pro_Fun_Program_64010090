@@ -1,4 +1,5 @@
 #include<stdio.h>
 int main(){
-  printf("I\u0305");
+  char name[]="abcd";
+  printf("%c",name[0]);
 }
