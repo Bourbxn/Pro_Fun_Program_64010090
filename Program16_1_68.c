@@ -37,5 +37,5 @@ int main(){
   sudoku[2][2][2][2]=1;
 
 
-  printf("%d", sudoku[3][3][3][1]);
+  printf("%d", sudoku[2][2][2][2]);
 }

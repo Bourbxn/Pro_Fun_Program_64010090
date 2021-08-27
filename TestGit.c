@@ -1,5 +1,6 @@
 #include<stdio.h>
 int main(){
-  char name[]="abcd";
-  printf("%c",name[0]);
+  int check=true;
+  check =!check;
+  printf("%d", check);
 }
