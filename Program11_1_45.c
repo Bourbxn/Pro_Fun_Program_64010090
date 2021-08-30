@@ -10,6 +10,7 @@ int Factrl(int n){
 int main(){
   int num;
   scanf("%d", &num);
-  printf("%d",Factrl(num));
+  if(num<0) printf("ERROR");
+  else printf("%d",Factrl(num));
   return 0;
 }
