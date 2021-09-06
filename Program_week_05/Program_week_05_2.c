@@ -8,4 +8,5 @@ int main(){
     else if(word[i]>=97 && word[i]<=122) printf("%c", word[i]-32);
     i++;
   }
+  return 0;
 }
