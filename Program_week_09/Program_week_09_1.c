@@ -3,7 +3,7 @@
 int main()
 {
   char text[10000];
-  scanf("%s", text);
+  scanf("%[^\n]s", text);
   for(int i=strlen(text)-1;i>=0;i--){
     printf("%c",text[i]);
   }
